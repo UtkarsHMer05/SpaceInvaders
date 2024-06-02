@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA8C01122B681FBF0004EE33 /* SpaceInvadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C01112B681FBF0004EE33 /* SpaceInvadersApp.swift */; };
+		AA0B98BC2B6A685700D786BA /* SpaceInvadersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0B98BB2B6A685700D786BA /* SpaceInvadersApp.swift */; };
+		AA7979472B6966A8000A1B33 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7979462B6966A8000A1B33 /* StartView.swift */; };
+		AA8BFAFD2B6A6AC00020CDCF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BFAFC2B6A6AC00020CDCF /* Item.swift */; };
+		AA8BFB012B6A73900020CDCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8BFB002B6A73900020CDCF /* LaunchScreen.storyboard */; };
 		AA8C01142B681FBF0004EE33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C01132B681FBF0004EE33 /* ContentView.swift */; };
-		AA8C01162B681FBF0004EE33 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C01152B681FBF0004EE33 /* Item.swift */; };
 		AA8C01182B681FC10004EE33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8C01172B681FC10004EE33 /* Assets.xcassets */; };
 		AA8C011C2B681FC10004EE33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8C011B2B681FC10004EE33 /* Preview Assets.xcassets */; };
 		AA8C01262B681FC10004EE33 /* SpaceInvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C01252B681FC10004EE33 /* SpaceInvadersTests.swift */; };
 		AA8C01302B681FC10004EE33 /* SpaceInvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C012F2B681FC10004EE33 /* SpaceInvadersUITests.swift */; };
 		AA8C01322B681FC10004EE33 /* SpaceInvadersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8C01312B681FC10004EE33 /* SpaceInvadersUITestsLaunchTests.swift */; };
+		AAAD535D2B691BB8005BE827 /* ExplosionOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = AAAD535C2B691BB8005BE827 /* ExplosionOne.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0B98BB2B6A685700D786BA /* SpaceInvadersApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceInvadersApp.swift; sourceTree = "<group>"; };
+		AA7979462B6966A8000A1B33 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		AA8BFAFC2B6A6AC00020CDCF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AA8BFB002B6A73900020CDCF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8C010E2B681FBF0004EE33 /* SpaceInvaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8C01112B681FBF0004EE33 /* SpaceInvadersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersApp.swift; sourceTree = "<group>"; };
 		AA8C01132B681FBF0004EE33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA8C01152B681FBF0004EE33 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		AA8C01172B681FC10004EE33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA8C01192B681FC10004EE33 /* SpaceInvaders.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpaceInvaders.entitlements; sourceTree = "<group>"; };
 		AA8C011B2B681FC10004EE33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		AA8C012B2B681FC10004EE33 /* SpaceInvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceInvadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8C012F2B681FC10004EE33 /* SpaceInvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersUITests.swift; sourceTree = "<group>"; };
 		AA8C01312B681FC10004EE33 /* SpaceInvadersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceInvadersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAAD535C2B691BB8005BE827 /* ExplosionOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionOne.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		AA8C01102B681FBF0004EE33 /* SpaceInvaders */ = {
 			isa = PBXGroup;
 			children = (
-				AA8C01112B681FBF0004EE33 /* SpaceInvadersApp.swift */,
+				AA0B98BB2B6A685700D786BA /* SpaceInvadersApp.swift */,
 				AA8C01132B681FBF0004EE33 /* ContentView.swift */,
-				AA8C01152B681FBF0004EE33 /* Item.swift */,
+				AA7979462B6966A8000A1B33 /* StartView.swift */,
+				AA8BFAFC2B6A6AC00020CDCF /* Item.swift */,
+				AA8C011A2B681FC10004EE33 /* Preview Content */,
 				AA8C01172B681FC10004EE33 /* Assets.xcassets */,
 				AA8C01192B681FC10004EE33 /* SpaceInvaders.entitlements */,
-				AA8C011A2B681FC10004EE33 /* Preview Content */,
+				AAAD535C2B691BB8005BE827 /* ExplosionOne.sks */,
+				AA8BFB002B6A73900020CDCF /* LaunchScreen.storyboard */,
 			);
 			path = SpaceInvaders;
 			sourceTree = "<group>";
@@ -237,7 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8C011C2B681FC10004EE33 /* Preview Assets.xcassets in Resources */,
+				AA8BFB012B6A73900020CDCF /* LaunchScreen.storyboard in Resources */,
 				AA8C01182B681FC10004EE33 /* Assets.xcassets in Resources */,
+				AAAD535D2B691BB8005BE827 /* ExplosionOne.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8BFAFD2B6A6AC00020CDCF /* Item.swift in Sources */,
 				AA8C01142B681FBF0004EE33 /* ContentView.swift in Sources */,
-				AA8C01162B681FBF0004EE33 /* Item.swift in Sources */,
-				AA8C01122B681FBF0004EE33 /* SpaceInvadersApp.swift in Sources */,
+				AA0B98BC2B6A685700D786BA /* SpaceInvadersApp.swift in Sources */,
+				AA7979472B6966A8000A1B33 /* StartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,8 +444,10 @@
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -470,8 +484,10 @@
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
